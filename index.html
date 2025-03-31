@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jeux en ligne: Morpion</title>
+</head>
+<body>
+<header>
+    <h1>Jeux en Ligne: Le Morpion</h1>
+</header>
+<main>
+    <section id="accueil">
+        <div class="row">
+            <h2>Les règles du jeu</h2>
+            <p>Pour jouer au morpion, il faut tracer une grille de 3 cases sur 3 et aligner 3 symboles identiques (généralement "X" et "O") horizontalement, 
+                verticalement ou en diagonale.</p>
+            <p>Les joueurs inscrivent tour à tour leur symbole sur la grille.</p>
+            <p>Le jeu se joue en 3 manches. Le joueur qui réussit à aligner ses trois symboles gagne la partie.</p>
+            <div class="btn">
+                <button id="jouer">Lancer une partie</button>
+            </div>
+        </div>
+    </section>
+    <section id="jeu" class="cacher">
+        <div class="row">
+            <div class="btn">
+                <button id="regles">Règles du jeu</button>
+                <button class="stop">Retour à l'accueil</button>
+            </div>
+            <div class="ligne">
+                <div class="case"><p></p></div>
+                <div class="case"><p></p></div>
+                <div class="case"><p></p></div>
+            </div>
+            <div class="ligne">
+                <div class="case"><p></p></div>
+                <div class="case"><p></p></div>
+                <div class="case"><p></p></div>
+            </div>
+            <div class="ligne">
+                <div class="case"><p></p></div>
+                <div class="case"><p></p></div>
+                <div class="case"><p></p></div>
+            </div>
+            <div class="tour"><span class="joueur"></span><p>&nbsp;à ton tour!</p></div>
+        </div>
+        
+    </section>
+    <section id="fin" class="cacher">
+        <div class="row">
+            <p>Partie terminée</p>
+            <h3><!--joueur "a gagné" ou égalité--></h3>
+            <div class="btn">
+                <button id="encore">Recommencer</button>
+                <button class="stop">Retour à l'accueil</button>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
