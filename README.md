@@ -1,8 +1,7 @@
 # Morpion
  Création d'un jeu du morpion, en js, lors du début de l'apprentissage. Quelques bugs présents.
  ## Démo en ligne
- 👉
- https://votre-nom.github.io/projet-nom/
+ https://charpi84.github.io/morpionGame/
  ## Technologies utilisées
  HTML
  CSS
